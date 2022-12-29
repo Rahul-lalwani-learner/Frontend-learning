@@ -2,6 +2,9 @@ html,body{
     height: 100%;
 
 }
+*{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0px;
@@ -69,6 +72,7 @@ header{
 }
 
 #menu ul{
+    border-radius: 10px;
     text-align: center;
     float: right;
     margin: none;
@@ -98,4 +102,198 @@ header{
     color: #171813;
     border-left: 1px solid white;
     text-decoration: none;
+}
+
+/* Styling header  */
+
+#header-image-menu{
+    top: 10px;
+    position: relative;
+
+}
+#header-image-menu img{ 
+    width: 100%;
+    margin: none;
+    padding: none;
+    /* position: relative; */
+    /* height: 80vh; */
+    /* height: 100%; */
+    border-radius: 25px;
+    /* overflow: hidden; */
+
+} 
+
+#image-text{
+    position: absolute;
+    top: 50%;
+    /* margin: auto 0px; */
+    left: 50%;
+    font-family: 'Roboto';
+    font-size: 40px;
+    color: #ffffff;
+    transform: translate(-50%,-30%);
+    text-align: center;
+}
+
+#welcome{
+    padding: 50px 0px 0px 0px;
+    overflow: hidden;
+    width: 1000px;
+    margin: 0px auto;
+    font-family: 'Roboto';
+}
+
+#welcome .title{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #171813;
+    border-radius: 20px;
+}
+#welcome p{
+    margin-bottom: 40px;
+    text-align: center;
+}
+#section-2{
+    overflow: hidden;
+    margin-top: 5em;
+    padding-top: 1em;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    text-align: center;
+}
+.row #column1,.row #column2,.row #column3{
+    float: left;
+    width: 320px;
+    padding: 80px 40px 80px 40px;
+}
+
+.column-title h2{
+    margin: 1em 0em;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.button{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #606060;
+    color: white;
+    border: 2px solid #606060;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+#section-3{
+    overflow: hidden;
+    padding-top: 5em;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+#column21,#column22,#column23,#column24{
+    width: 282px;
+    text-align: center;
+}
+#column21,#column22,#column23,#column24{
+    float: left;
+    margin: auto 5px;
+}
+
+.img-title{
+    display: block;
+    padding-bottom: 1em;
+    font-size: 1em;
+    color: rgba(0,0,0,0.6);
+}
+
+.image{
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.image img{
+    display: block;
+    width: 100%;
+}
+.image-full{
+    display: block;
+    width: 100%;
+    margin: 0 0 3em 0;
+}
+.img-title{
+    display: block;
+    padding-bottom: 1em;
+    font-size: 1em;
+    color: rgba(0,0,0,0.6)
+}
+
+.company-details{
+    overflow: hidden;
+    padding: 3em 0em;
+    background: #e3f0f7;
+    text-align: center;
+    margin-top: 5em;
+}
+
+#footer #col1,#footer #col2,#footer #col3{
+    float: left;
+    width: 320px;
+    padding: 0px 80px 0px 80px;
+    margin: 0px auto;
+}
+
+#footer #icon{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+.copyright{
+    overflow: hidden;
+    padding: 3em 0em;
+    border-top: 20px solid #606060;
+    text-align: center;
+    background: #606060;
+}
+
+.copyright p{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color: rgba(255,255,255,0.6);
+}
+.copyright a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+
+ul.contact{
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+}
+
+ul.contact li{
+    display: inline-block;
+    padding: 0em 0.10em ;
+    font-size: 1em;
+}
+
+
+ul.contact li a{
+    color: #FFF;
+    display: inline-block;
+    background: #4C93B9;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
 }

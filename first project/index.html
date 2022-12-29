@@ -1,56 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sample Webpage</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <!-- Header menu of page -->
     <header class="container">
-        <!-- 2 things logo and navigation menu -->
-        <div id="top-header">
-            <div id="logo">
-                <img src="images/logo2.png" alt="Logo">
-            </div>
-            <nav>
-                <div id="menu">
-                    <ul>
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Products</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </nav>
+      <!-- 2 things logo and navigation menu -->
+      <div id="top-header">
+        <div id="logo">
+          <img src="images/logo2.png" alt="Logo" />
         </div>
-        <!-- sample image menu  -->
-        <div class="header-image-menu">
-
-        </div>
+        <nav>
+          <div id="menu">
+            <ul>
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Products</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- sample image menu  -->
+      <div id="header-image-menu">
+        <img src="images/image4.jpg" alt="header-image" />
+        <h2 id="image-text">Let's Create Future Together</h2>
+      </div>
     </header>
     <!-- main body contains 3 section  -->
     <main>
-        <!-- section 1 -->
-        <section>
-
-        </section>
+      <!-- section 1 -->
+      <section class="container">
+        <div id="welcome">
+          <h1 class="title">Welcome to Our Website</h1>
+          <p>
+            This is a <strong>Sample Webpage</strong>, a HTML and CSS template
+            designed by <b>Rahul Lalwani</b>. The photos in this template are
+            designed by our <b>Graphic Design Team</b>. This template is
+            designed to explain the basics of HTML and CSS in our first Web
+            Design course.
+          </p>
+        </div>
+      </section>
+      <section id="section-2" class="container">
         <!-- section 2 -->
-        <section>
+        <div class="row">
+          <div id="column1">
+            <div class="column-title">
+              <h2>Course 1</h2>
+            </div>
+            <p>
+              A Computer Science portal for learners. It contains well written,
+              well thought and well explained computer science and programming
+              articles, quizzes and ...
+            </p>
+            <a href="#samplebutton" class="button"> Learn More </a>
+          </div>
+          <div id="column2">
+            <div class="column-title">
+              <h2>Course 2</h2>
+            </div>
 
-        </section>
+            <p>
+              A practice poratal to test your knowledge of data structures and
+              algorithms by solving problems asked in interviews of many tech
+              giants like, Amazon, Microsoft etc.
+            </p>
+
+            <a href="#samplebutton" class="button"> Learn More </a>
+          </div>
+          <div id="column3">
+            <div class="column-title">
+              <h2>Course 3</h2>
+            </div>
+
+            <p>
+              An integrated development environment to run and test your codes
+              in almost all of the popular and widely used programming
+              languages.
+            </p>
+
+            <a href="#samplebutton" class="button"> Learn More </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-3" class="container">
         <!-- section 3 -->
-        <section>
+        <div id="row">
+          <!-- Column 1 -->
+          <div id="column21">
+            <img src="images/column1image.jpg" class="image image-full" />
 
-        </section>
+            <div class="img-title">
+              <h3>Technical Content Writer</h3>
+            </div>
+
+            <p>
+              The work requires understanding of Computer Science concepts.
+              Candidates who are active on Practice Portal will be preferred.
+            </p>
+
+            <a href="#" class="button"> Apply Here </a>
+          </div>
+
+          <!-- Column 2 -->
+          <div id="column22">
+            <img src="images/column2image.jpg" class="image image-full" />
+
+            <div class="img-title">
+              <h3>Software Developer</h3>
+            </div>
+
+            <p>
+              Good knowledge of PHP, JavaScript, Amazon AWS and Web Development
+              in general. Candidates who are active on Practice Portal will be
+              preferred.
+            </p>
+
+            <a href="#" class="button"> Apply Here </a>
+          </div>
+
+          <!-- Column 3 -->
+          <div id="column23">
+            <img src="images/column3image.jpg" class="image image-full" />
+
+            <div class="img-title">
+              <h3>Teaching Assistant</h3>
+            </div>
+
+            <p>
+              It involves taking the doubt sessions, coordinating with mentors
+              and requires in-depth knowledge of Data Structures and Algorithms.
+            </p>
+
+            <a href="#" class="button"> Apply Here </a>
+          </div>
+
+          <!-- Column 4 -->
+          <div id="column24">
+            <img src="images/column4image.jpg" class="image image-full" />
+
+            <div class="img-title">
+              <h3>Mentor / Tutor</h3>
+            </div>
+
+            <p>
+              Job involves teaching, problem solving in classes as well as doubt
+              sessions and thus requires in-depth knowledge of Data Structures
+              and Algorithms.
+            </p>
+
+            <a href="#" class="button"> Apply Here </a>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer part of website -->
-    <footer>
+    <footer id="footer" >
+      <div class="company-details">
+        <div class="row">
+          <div id="col1">
+            <span id="icon" class="fa fa-map-marker"></span>
 
+            <span>
+              Madhav Institute of Technology and Science
+              <br />Gwalior, (M.P.)
+            </span>
+          </div>
+
+          <div id="col2">
+            <span id="icon" class="fa fa-phone"></span>
+
+            <span> Telephone: +91-70890****** </span>
+          </div>
+
+          <div id="col3">
+            <span id="icon" class="fa fa-envelope"></span>
+            <span>itsrahullalwani@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Section -->
+      <div class="copyright">
+        <p>© All rights reserved | Rahul lalwani.</p>
+
+        <ul class="contact">
+          <li>
+            <a href="#" class="fa fa-twitter"> </a>
+          </li>
+
+          <li>
+            <a href="#" class="fa fa-facebook"> </a>
+          </li>
+
+          <li>
+            <a href="#" class="fa fa-pinterest-p"> </a>
+          </li>
+        </ul>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>

@@ -421,7 +421,111 @@ footer .text{
 }
 
 @media only screen and (max-width: 650px) {
+  #navbar{
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    position: static;
+  }
+  #menu ul{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .front-section{
+    height: 300px;
+  }
+  #typing-effect{ 
+    top: 25vw;
+    font-size:  3vw; ;
+    width: 45vw;
+    /* top: 900px; */
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 45vw;
+    }
+  }
+  .welcometext{
+    font-size: 1.5vw;
+    top: 30vw;
+  }
+  .front-section img{
+    width: 80%;
+  }
+  .icon{
+    width: 4vw;
+  }
   #course{
     flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  #course .section1{
+    /* justify-content: center; */
+    height: 60vw;
+    font-size: 4vw;
+
+  }
+  #course .section2{
+    height: 60vw;
+    font-size: 4vw;
+
+
+    /* justify-content: center; */
+  }
+  #course .heading{
+    font-size: 4.3vw;
+  }
+  #course .section3{
+    height: 60vw;
+    font-size: 4vw;
+    /* justify-content: center; */
+  }
+  #Placements{
+    flex-direction: column;
+    align-items: center;
+  }
+  #Placements .companies-img{
+    width: 60%;
+  }
+  #Placements .placement-info{
+    font-size: 3vw;
+  }
+  #Placements .placement-info
+  .place-text{
+    font-size: 4vw;
+  }
+  footer{
+    height: 40px;
+    /* margin: 10px; */
+  }
+  footer .text{
+    padding: 18px 0px;
+    font-size: 14px;
+  }
+  
+  #Contact{
+    flex-direction: column;
+    height: 470px;
+  }
+  #Contact .contact-img {
+    width: 60%;
+  }
+  #Form {
+    width: 100%;
+  }
+  #Form label{
+    font-size: 3vw;
+  }
+  #Form input{
+    font-size: 3vw;
+    width: 50vw;
+  }
+  
+  .contact-title{
+    font-size: 3vw;
   }
 }

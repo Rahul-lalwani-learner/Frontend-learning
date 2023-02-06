@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+:root{
+    --font:'Barlow Condensed', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+#title{
+    font-family: var(--font);
+    font-size: 40px;
+    font-weight: 400;
+}
+#input-task{
+    margin: 20px;
+    width: 500px;
+}
+#input-task input{
+    width: 100%;
+    padding: 10px;
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 700;
+    transition-duration: 0.5s;
+    border: none;
+
+}
+#input-task input:focus{
+    outline: none;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+#input-task input:hover{
+    box-shadow: 0px 1px 25px white;
+    /* border-radius: 10px; */
+    transition-duration: 0.5s;
+}
+.btn{
+    font-family: var(--font);
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    font-weight: 700;
+    width: 100px;
+}
+.btn:active{
+    transform: translate(0px,-1px);
+}
+.btn:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    transition-duration: 0.4s;
+}
+#allTasks {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#allTasks .task{
+    padding: 10px;
+    font-size: 30px;
+    font-family: var(--font);
+    border: 2px solid white;
+    width: 400px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 3px;
+    /* overflow: hidden; */
+}
+#allTasks .task:hover{
+    background-color: white;
+    border:2px solid black;
+    color: black;
+    transition-duration: 0.2s;
+}
+/* #allTasks .task:target{
+    background-color: white;
+    border:2px solid black;
+    color: black;
+    transition-duration: 0.2s;
+} */
+
+/* .task:nth-child(1){
+    background-color: yellow;
+} */
